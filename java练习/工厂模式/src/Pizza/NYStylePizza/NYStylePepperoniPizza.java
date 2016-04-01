@@ -9,4 +9,8 @@ import PizzaStore.PizzaStore;
 public class NYStylePepperoniPizza extends Pizza{
     Pizza pizza;
 
+    @Override
+    public void prepare() {
+
+    }
 }
