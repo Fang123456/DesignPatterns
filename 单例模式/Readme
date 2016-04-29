@@ -1,0 +1,16 @@
+1. 为什么用单例模式？
+        有一些对象只需要一个，比如说线程池、缓存、对话框、偏好设置、注册表的对象、日志对象，
+    充当打印机、显卡等设备的驱动程序的对象。
+
+2. 单例模式的两种（饿汉模式和懒汉模式）
+        public class Singleton{
+            private final static Singleton INSTANCE = new Singleton();
+
+            private Singleton(){}
+
+            public static Singleton getInstance(){
+                return INSTANCE;
+            }
+        }
+
+3. 定义：确保一个类只有一个实例，并提供一个全局访问点。
