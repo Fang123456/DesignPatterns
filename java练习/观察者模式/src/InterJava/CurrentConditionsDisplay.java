@@ -1,3 +1,5 @@
+package InterJava;
+
 import java.util.Observable;
 import java.util.Observer;
 
