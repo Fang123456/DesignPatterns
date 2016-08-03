@@ -4,7 +4,7 @@ package simple;
  * Created by AAAAA on 2016/5/3.
  */
 public class Light {
-    public void On() { System.out.println("The light is on"); }
+    public void on() { System.out.println("The light is on"); }
 
-    public void Off(){ System.out.println("The light is off"); }
+    public void off(){ System.out.println("The light is off"); }
 }
