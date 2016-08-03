@@ -35,5 +35,6 @@ public class ReoteLoader {
         remoteControl.setCommand(2, stereoOnWithCDCommmand, stereoOffCommmand);
         remoteControl.onButtonWasPushed(2);
         remoteControl.offButtonWasPushed(2);
+        remoteControl.undoButtonWasPushed();
     }
 }

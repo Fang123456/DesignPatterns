@@ -10,4 +10,9 @@ public class NoCommand implements Command {
     public void execute() {
         //Do noting.
     }
+
+    @Override
+    public void undo() {
+        //Do noting.
+    }
 }

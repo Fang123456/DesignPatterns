@@ -9,6 +9,7 @@ import complex.devcommands.NoCommand;
 public class RemoteControl {
     Command[] onCommands;
     Command[] offCommands;
+    Command undoCommand;
 
     public RemoteControl() {
         onCommands = new Command[7];
@@ -19,6 +20,7 @@ public class RemoteControl {
             onCommands[i] = noCommand;
             offCommands[i] = noCommand;
         }
+        undoCommand = noCommand;
     }
 
     public void setCommand(int solt, Command onCommand, Command offCommand) {
@@ -28,10 +30,15 @@ public class RemoteControl {
 
     public void onButtonWasPushed(int solt) {
         onCommands[solt].execute();
+        undoCommand = onCommands[solt];
     }
 
     public void offButtonWasPushed(int solt) {
         offCommands[solt].execute();
+        undoCommand = offCommands[solt];
+    }
+    public void undoButtonWasPushed(){
+        undoCommand.undo();
     }
 
     public String toString() {
