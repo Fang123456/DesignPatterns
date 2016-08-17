@@ -1,6 +1,6 @@
-package iterface.impl;
+package iterator.iterface.impl;
 
-import item.MenuItem;
+import iterator.item.MenuItem;
 import com.sun.xml.internal.txw2.IllegalSignatureException;
 
 import java.util.Iterator;

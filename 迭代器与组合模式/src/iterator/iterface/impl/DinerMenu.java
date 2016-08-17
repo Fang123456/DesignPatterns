@@ -1,7 +1,7 @@
-package iterface.impl;
+package iterator.iterface.impl;
 
-import item.MenuItem;
-import iterface.Menu;
+import iterator.item.MenuItem;
+import iterator.iterface.Menu;
 
 import java.util.Iterator;
 
@@ -23,7 +23,7 @@ public class DinerMenu implements Menu {
     public void addItem(String name, String description, boolean vegetarian, double price) {
         MenuItem menuIten = new MenuItem(name, description, vegetarian, price);
         if (numberOfItems >= MAX_ITEMS) {
-            System.out.println("Sorry,menu is full!Can't add item to menu");
+            System.out.println("Sorry,menu is full!Can't add iterator.item to menu");
         } else {
             menuItems[numberOfItems] = menuIten;
             numberOfItems = numberOfItems + 1;

@@ -1,7 +1,7 @@
-package iterface.impl;
+package iterator.iterface.impl;
 
-import item.MenuItem;
-import iterface.Menu;
+import iterator.item.MenuItem;
+import iterator.iterface.Menu;
 
 import java.util.ArrayList;
 import java.util.Iterator;

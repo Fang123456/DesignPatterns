@@ -1,4 +1,4 @@
-package iterface;
+package iterator.iterface;
 
 import java.util.Iterator;
 

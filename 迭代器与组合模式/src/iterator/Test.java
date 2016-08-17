@@ -1,6 +1,8 @@
-import iterface.impl.BreakfastMenu;
-import iterface.Menu;
-import iterface.impl.DinerMenu;
+package iterator;
+
+import iterator.iterface.impl.BreakfastMenu;
+import iterator.iterface.Menu;
+import iterator.iterface.impl.DinerMenu;
 
 /**
  * Created by Administrator on 2016/8/17 0017.

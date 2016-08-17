@@ -1,5 +1,7 @@
-import item.MenuItem;
-import iterface.Menu;
+package iterator;
+
+import iterator.item.MenuItem;
+import iterator.iterface.Menu;
 
 import java.util.Iterator;
 
